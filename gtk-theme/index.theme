@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=dune
+Comment="Dune(2021)"
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=dune
+GtkTheme=dune
+IconTheme=dune
+MetacityTheme=dune
