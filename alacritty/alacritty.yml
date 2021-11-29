@@ -1,0 +1,66 @@
+# Dune based alacritty theme.
+
+
+
+colors:
+  primary:
+    background: '#2a1305'
+    foreground: '#d8c3bb'
+    bright_foreground: '#ffffff'
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  search:
+    matches:
+      foreground: '#44475a'
+      background: '#50fa7b'
+    focused_match:
+      foreground: '#44475a'
+      background: '#ffb86c'
+    bar:
+      background: '#282a36'
+      foreground: '#f8f8f2'
+  line_indicator:
+    foreground: None
+    background: None
+  selection:
+    text: CellForeground
+    background: '#44475a'
+
+
+
+  normal:
+    black:   '0x141012'
+    red:     '0x1e191d'
+    green:   '0x312a2f'
+    yellow:  '0x4b4148'
+    blue:    '0x6c5f68'
+    magenta: '0x94828f'
+    cyan:    '0xbaaeb7'
+    white:   '0xe5e1e4'
+
+  # Bright colors
+  bright:
+    black:   '0xe3aed5'
+    red:     '0xdca39a'
+    green:   '0x80b7bd'
+    yellow:  '0xdb7862'
+    blue:    '0x65a67d'
+    magenta: '0xb6b06d'
+    cyan:    '0xc2bd93'
+    white:   '0xd8897b'
+
+
+
+background_opacity: 0
+
+
+window:
+  padding:
+    x: 25
+    y: 20
+  dynamic_padding: true
